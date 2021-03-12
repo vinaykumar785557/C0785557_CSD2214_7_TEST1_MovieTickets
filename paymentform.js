@@ -52,4 +52,7 @@ function cvvvalidation(cvv) {
 
  }
 
- 
+ if (!expiryDate.match(/^[0][1-9]|[1][0-2]-[0-9]{2}$/)){
+    errMsg = errMsg + "The expiry date needs to be mm-yy and consist of a valid date.\n";
+    result = false;
+} 
