@@ -16,3 +16,16 @@ input[type=text] {
     box-sizing: border-box;
   }
 
+.button {
+    display: block;
+    width: 115px;
+    height: 25px;
+    background:rgb(58, 121, 209);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+}
